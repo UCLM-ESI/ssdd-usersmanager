@@ -1,8 +1,7 @@
 # authentication repository template
 
-[![Tests](https://github.com/UCLM-ESI/ssdd-authentication/actions/workflows/tests.yml/badge.svg)](https://github.com/UCLM-ESI/ssdd-authentication/actions/workflows/tests.yml)
-[![Linters](https://github.com/UCLM-ESI/ssdd-authentication/actions/workflows/linters.yml/badge.svg)](https://github.com/UCLM-ESI/ssdd-authentication/actions/workflows/linters.yml)
-[![Type checking](https://github.com/UCLM-ESI/ssdd-authentication/actions/workflows/typechecking.yml/badge.svg)](https://github.com/UCLM-ESI/ssdd-authentication/actions/workflows/typechecking.yml)
+[![Linters](https://github.com/UCLM-ESI/ssdd-usersmanager/actions/workflows/linters.yml/badge.svg)](https://github.com/UCLM-ESI/ssdd-usersmanager/actions/workflows/linters.yml)
+[![Type checking](https://github.com/UCLM-ESI/ssdd-usersmanager/actions/workflows/typechecking.yml/badge.svg)](https://github.com/UCLM-ESI/ssdd-usersmanager/actions/workflows/typechecking.yml)
 
 Template for the SSDD laboratory 2024-2025 (Finalization edition)
 
@@ -56,8 +55,6 @@ This repository is already configured to run the following workflows:
 - Ruff: checks the format, code style and docs style of the source code.
 - Pylint: same as Ruff, but it evaluates the code. If the code is rated under a given threshold, it fails.
 - MyPy: checks the types definitions and the usages, showing possible errors.
-- Unit tests: uses `pytest` to run unit tests. The code coverage is quite low. Fixing the tests, checking the
-    test coverage and improving it will make a difference.
 
 If you create your repository from this template, you will get all those CI for free.
 
