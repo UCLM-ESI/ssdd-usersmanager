@@ -33,8 +33,8 @@ module UsersManager {
 
     interface ManagerQuery {
         void login(string username, string password, ManagerQueryResponse* responseRcvr);
-        void checkUsername(string username, ManagerqueryResponse* responseRcvr);
-        void removeUserBySession(Session *activeSession, ManagerqueryResponse* responseRcvr);
-        void checkSession(Session *session, ManagerqueryResponse* responseRcvr);
+        void checkUsername(string username, ManagerQueryResponse* responseRcvr);
+        void removeUserBySession(Session *activeSession, ManagerQueryResponse* responseRcvr);
+        void checkSession(Session *session, ManagerQueryResponse* responseRcvr);
     };
 }

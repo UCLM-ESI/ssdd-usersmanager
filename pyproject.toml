@@ -20,7 +20,7 @@ classifiers = [
 license = "GPL-3.0-only"
 
 [project.scripts]
-remotetypes = "usersmanager.command_handlers:remotetypes_server"
+users-manager = "usersmanager.command_handlers:users_manager_server"
 
 [project.optional-dependencies]
 linters = ["mypy", "pylint", "ruff"]
